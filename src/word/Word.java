@@ -22,11 +22,14 @@ public class Word {
         }
         
         //check if the file exsists
-        if(!file.exists()){ //just for testing purposes
+        /*
+        if(file.exists()){ 
             load();
         }else{
             save();
         }
+        */
+        save();
     }
     
     public String getWord(){
@@ -56,16 +59,19 @@ public class Word {
         
         Document doc = new Document(elmWord);
         
+        
+        String xmlstring = "";
+        
         try {
             Serializer serializer = new Serializer(System.out, "ISO-8859-1");
             serializer.setIndent(4);
             serializer.setMaxLength(64);
-            serializer.write(doc);  
+            serializer.write(doc); 
         }catch (IOException ex) {
             System.err.println(ex); 
         }
         
-        //System.out.println(doc.toXML()); 
+        System.out.println(xmlstring);
         
         try {
             FileWriter writer = new FileWriter(file);
