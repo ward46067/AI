@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>i'm</word>
+    <char>i</char>
+    <char>'</char>
+    <char>m</char>
+    <type>0</type>
+    <before totalBefore="2">
+        <wordBefore0 occur="1">MEANTIME</wordBefore0>
+        <wordBefore1 occur="1">AND</wordBefore1>
+    </before>
+    <after totalAfter="2">
+        <wordAfter0 occur="1">STILL</wordAfter0>
+        <wordAfter1 occur="1">A</wordAfter1>
+    </after>
+</word>

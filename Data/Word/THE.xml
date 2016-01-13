@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>the</word>
+    <char>t</char>
+    <char>h</char>
+    <char>e</char>
+    <type>0</type>
+    <before totalBefore="3">
+        <wordBefore0 occur="1">IN</wordBefore0>
+        <wordBefore1 occur="1">ADOPTED</wordBefore1>
+        <wordBefore2 occur="1">HAVE</wordBefore2>
+    </before>
+    <after totalAfter="3">
+        <wordAfter0 occur="1">MEANTIME</wordAfter0>
+        <wordAfter1 occur="1">NEIGHBOR'S</wordAfter1>
+        <wordAfter2 occur="1">GUTS</wordAfter2>
+    </after>
+</word>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>oh</word>
+    <char>o</char>
+    <char>h</char>
+    <type>0</type>
+    <before totalBefore="0"/>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">MAN</wordAfter0>
+    </after>
+</word>

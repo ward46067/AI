@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>plague</word>
+    <char>p</char>
+    <char>l</char>
+    <char>a</char>
+    <char>g</char>
+    <char>u</char>
+    <char>e</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">THAT</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">ME</wordAfter0>
+    </after>
+</word>

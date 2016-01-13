@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>and</word>
+    <char>a</char>
+    <char>n</char>
+    <char>d</char>
+    <type>0</type>
+    <before totalBefore="4">
+        <wordBefore0 occur="1">SUBREDDITS</wordBefore0>
+        <wordBefore1 occur="1">MYSELF</wordBefore1>
+        <wordBefore2 occur="1">CALORIES</wordBefore2>
+        <wordBefore3 occur="1">GUTS</wordBefore3>
+    </before>
+    <after totalAfter="4">
+        <wordAfter0 occur="1">SAVE</wordAfter0>
+        <wordAfter1 occur="1">I'M</wordAfter1>
+        <wordAfter2 occur="1">EXERCISING</wordAfter2>
+        <wordAfter3 occur="1">IT'S</wordAfter3>
+    </after>
+</word>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>thought</word>
+    <char>t</char>
+    <char>h</char>
+    <char>o</char>
+    <char>u</char>
+    <char>g</char>
+    <char>h</char>
+    <char>t</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">NEVER</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">I</wordAfter0>
+    </after>
+</word>

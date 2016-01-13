@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>also</word>
+    <char>a</char>
+    <char>l</char>
+    <char>s</char>
+    <char>o</char>
+    <type>0</type>
+    <before totalBefore="2">
+        <wordBefore0 occur="1">NOW</wordBefore0>
+        <wordBefore1 occur="1">DAY</wordBefore1>
+    </before>
+    <after totalAfter="2">
+        <wordAfter0 occur="1">VERY</wordAfter0>
+        <wordAfter1 occur="1">ADOPTED</wordAfter1>
+    </after>
+</word>

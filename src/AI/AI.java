@@ -1,7 +1,7 @@
 package AI;
 
+import sentence.ParseSentence;
 import ward.console.Console;
-import word.Word;
 
 public class AI{
     
@@ -11,6 +11,8 @@ public class AI{
         console.setTitle("AI");
         console.build();
         
-        Word word = new Word("Word", 0);
+        while(true){
+            ParseSentence sentence = new ParseSentence(console.answer());
+        }
     }
 }

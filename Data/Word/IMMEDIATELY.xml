@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>immediately</word>
+    <char>i</char>
+    <char>m</char>
+    <char>m</char>
+    <char>e</char>
+    <char>d</char>
+    <char>i</char>
+    <char>a</char>
+    <char>t</char>
+    <char>e</char>
+    <char>l</char>
+    <char>y</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">JUST</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">DELETED</wordAfter0>
+    </after>
+</word>

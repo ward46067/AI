@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>be</word>
+    <char>b</char>
+    <char>e</char>
+    <type>0</type>
+    <before totalBefore="2">
+        <wordBefore0 occur="1">WOULDN'T</wordBefore0>
+        <wordBefore1 occur="1">YOURSELF</wordBefore1>
+    </before>
+    <after totalAfter="2">
+        <wordAfter0 occur="1">ABLE</wordAfter0>
+        <wordAfter1 occur="1">STUCKNOT</wordAfter1>
+    </after>
+</word>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>still</word>
+    <char>s</char>
+    <char>t</char>
+    <char>i</char>
+    <char>l</char>
+    <char>l</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">I'M</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">GETTING</wordAfter0>
+    </after>
+</word>

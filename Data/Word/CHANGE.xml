@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>change</word>
+    <char>c</char>
+    <char>h</char>
+    <char>a</char>
+    <char>n</char>
+    <char>g</char>
+    <char>e</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">CAN</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">IT</wordAfter0>
+    </after>
+</word>

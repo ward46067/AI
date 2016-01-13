@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>is</word>
+    <char>i</char>
+    <char>s</char>
+    <type>0</type>
+    <before totalBefore="2">
+        <wordBefore0 occur="1">PERSON</wordBefore0>
+        <wordBefore1 occur="1">IT</wordBefore1>
+    </before>
+    <after totalAfter="2">
+        <wordAfter0 occur="1">A</wordAfter0>
+        <wordAfter1 occur="1">INTOLERABLE</wordAfter1>
+    </after>
+</word>

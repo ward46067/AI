@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>very</word>
+    <char>v</char>
+    <char>e</char>
+    <char>r</char>
+    <char>y</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">ALSO</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">NICE</wordAfter0>
+    </after>
+</word>

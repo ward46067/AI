@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>you're</word>
+    <char>y</char>
+    <char>o</char>
+    <char>u</char>
+    <char>'</char>
+    <char>r</char>
+    <char>e</char>
+    <type>0</type>
+    <before totalBefore="0"/>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">NOT</wordAfter0>
+    </after>
+</word>

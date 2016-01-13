@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>wouldn't</word>
+    <char>w</char>
+    <char>o</char>
+    <char>u</char>
+    <char>l</char>
+    <char>d</char>
+    <char>n</char>
+    <char>'</char>
+    <char>t</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">HE</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">BE</wordAfter0>
+    </after>
+</word>

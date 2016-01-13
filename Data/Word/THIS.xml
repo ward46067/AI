@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>this</word>
+    <char>t</char>
+    <char>h</char>
+    <char>i</char>
+    <char>s</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">AGO</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">PERSON</wordAfter0>
+    </after>
+</word>

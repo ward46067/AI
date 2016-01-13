@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>passed</word>
+    <char>p</char>
+    <char>a</char>
+    <char>s</char>
+    <char>s</char>
+    <char>e</char>
+    <char>d</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">MOM</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">MOVED</wordAfter0>
+    </after>
+</word>

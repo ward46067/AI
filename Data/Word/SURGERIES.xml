@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>surgeries</word>
+    <char>s</char>
+    <char>u</char>
+    <char>r</char>
+    <char>g</char>
+    <char>e</char>
+    <char>r</char>
+    <char>i</char>
+    <char>e</char>
+    <char>s</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">THREE</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">AND</wordAfter0>
+    </after>
+</word>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>to</word>
+    <char>t</char>
+    <char>o</char>
+    <type>0</type>
+    <before totalBefore="4">
+        <wordBefore0 occur="1">JUST</wordBefore0>
+        <wordBefore1 occur="1">NEED</wordBefore1>
+        <wordBefore2 occur="1">BACK</wordBefore2>
+        <wordBefore3 occur="1">TRY</wordBefore3>
+    </before>
+    <after totalAfter="4">
+        <wordAfter0 occur="1">SEE</wordAfter0>
+        <wordAfter1 occur="1">DO</wordAfter1>
+        <wordAfter2 occur="1">HIGH</wordAfter2>
+        <wordAfter3 occur="1">'STICK</wordAfter3>
+    </after>
+</word>
