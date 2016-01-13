@@ -1,2 +1,9 @@
-<?xml version="1.0"?>
-<word><word>Word</word><char>W</char><char>o</char><char>r</char><char>d</char><type>0</type></word>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>Word</word>
+    <char>W</char>
+    <char>o</char>
+    <char>r</char>
+    <char>d</char>
+    <type>0</type>
+</word>
