@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>we</word>
+    <char>w</char>
+    <char>e</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">WHAT</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">NEED</wordAfter0>
+    </after>
+</word>

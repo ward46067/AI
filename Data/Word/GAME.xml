@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>game</word>
+    <char>g</char>
+    <char>a</char>
+    <char>m</char>
+    <char>e</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">ON</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">DAYS</wordAfter0>
+    </after>
+</word>

@@ -33,6 +33,16 @@ public class ParseSentence {
         
         words.add(s);
         
+        //check if number
+        for(int i = 0; i < words.size(); i++){
+            try{
+                int num = Integer.parseInt((String) words.get(i)); //is a number
+                words.remove(i);
+            } catch (NumberFormatException e) {
+                
+            }
+        }
+        
         for(int i = 0; i < words.size(); i++){
             String temp = (String) words.get(i);
             

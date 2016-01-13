@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import nu.xom.*;
@@ -18,10 +19,10 @@ public class Word {
     private int type;
     private File file;
     
-    private ArrayList wordsBefore = new ArrayList();
-    private ArrayList wordsAfter = new ArrayList();
-    private ArrayList timesBefore = new ArrayList();
-    private ArrayList timesAfter = new ArrayList();
+    private ArrayList<String> wordsBefore = new ArrayList();
+    private ArrayList<String> wordsAfter = new ArrayList();
+    private ArrayList<Integer> timesBefore = new ArrayList();
+    private ArrayList<Integer> timesAfter = new ArrayList();
     private ArrayList synonym = new ArrayList();
     
     public Word(String w){
@@ -161,12 +162,20 @@ public class Word {
         }
     }
     
-    public Word commonWordBefore(int i){
-        return this; //temp
+    public Word commonWordBefore(){
+        int max = Collections.max(timesBefore);
+        int i = timesBefore.indexOf(max);
+        String s = wordsBefore.get(i);
+        Word w = new Word(s);
+        return w;
     }
     
-    public Word commonWordAfter(int i){
-        return this; //temp
+    public Word commonWordAfter(){
+        int max = Collections.max(timesAfter);
+        int i = timesAfter.indexOf(max);
+        String s = wordsAfter.get(i);
+        Word w = new Word(s);
+        return w;
     }
     
     public Word commonBefore(Word w){

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>what</word>
+    <char>w</char>
+    <char>h</char>
+    <char>a</char>
+    <char>t</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">THAT'S</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">WE</wordAfter0>
+    </after>
+</word>

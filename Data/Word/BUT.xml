@@ -5,12 +5,14 @@
     <char>u</char>
     <char>t</char>
     <type>0</type>
-    <before totalBefore="2">
+    <before totalBefore="3">
         <wordBefore0 occur="1">BITTERSWEET</wordBefore0>
         <wordBefore1 occur="1">DO</wordBefore1>
+        <wordBefore2 occur="1">IT</wordBefore2>
     </before>
-    <after totalAfter="2">
+    <after totalAfter="3">
         <wordAfter0 occur="1">NECESSARY</wordAfter0>
         <wordAfter1 occur="1">HAVE</wordAfter1>
+        <wordAfter2 occur="1">OF</wordAfter2>
     </after>
 </word>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>county</word>
+    <char>c</char>
+    <char>o</char>
+    <char>u</char>
+    <char>n</char>
+    <char>t</char>
+    <char>y</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">AND</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">HAVE</wordAfter0>
+    </after>
+</word>

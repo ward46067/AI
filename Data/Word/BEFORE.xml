@@ -8,10 +8,12 @@
     <char>r</char>
     <char>e</char>
     <type>0</type>
-    <before totalBefore="1">
+    <before totalBefore="2">
         <wordBefore0 occur="1">THAN</wordBefore0>
+        <wordBefore1 occur="1">CITY</wordBefore1>
     </before>
-    <after totalAfter="1">
+    <after totalAfter="2">
         <wordAfter0 occur="1">PLUS</wordAfter0>
+        <wordAfter1 occur="1">THE</wordAfter1>
     </after>
 </word>

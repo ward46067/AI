@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>etc</word>
+    <char>e</char>
+    <char>t</char>
+    <char>c</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">ETC</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">IN</wordAfter0>
+    </after>
+</word>

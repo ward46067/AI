@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<word>
+    <word>violent</word>
+    <char>v</char>
+    <char>i</char>
+    <char>o</char>
+    <char>l</char>
+    <char>e</char>
+    <char>n</char>
+    <char>t</char>
+    <type>0</type>
+    <before totalBefore="1">
+        <wordBefore0 occur="1">ANDOR</wordBefore0>
+    </before>
+    <after totalAfter="1">
+        <wordAfter0 occur="1">FANS</wordAfter0>
+    </after>
+</word>
