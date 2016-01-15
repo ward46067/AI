@@ -28,6 +28,18 @@ public class ParseSentence {
             temp = temp.replace(")", "");
             temp = temp.replace("-", "");
             temp = temp.replace("_", "");
+            temp = temp.replace("!", "");
+            temp = temp.replace("@", "");
+            temp = temp.replace("#", "");
+            temp = temp.replace("$", "");
+            temp = temp.replace("%", "");
+            temp = temp.replace("^", "");
+            temp = temp.replace("&", "");
+            temp = temp.replace("*", "");
+            temp = temp.replace("`", "");
+            temp = temp.replace("~", "");
+            temp = temp.replace("|", "");
+            temp = temp.replace("", "");
             words.add(temp);
         }
         

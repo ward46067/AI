@@ -23,7 +23,13 @@ public class Word {
     private ArrayList<String> wordsAfter = new ArrayList();
     private ArrayList<Integer> timesBefore = new ArrayList();
     private ArrayList<Integer> timesAfter = new ArrayList();
+    
     private ArrayList synonym = new ArrayList();
+    
+    private ArrayList pObjParent = new ArrayList(); //primary object parent
+    private ArrayList sObjParent = new ArrayList(); //secondary object parent
+    private ArrayList pObjChild = new ArrayList(); //primary object child
+    private ArrayList sObjChild = new ArrayList(); //secondary object child
     
     public Word(String w){
         word = w.toLowerCase();
@@ -35,14 +41,13 @@ public class Word {
         }
         
         //check if the file exsists
-        
         if(file.exists()){
             load();
         }else{
             save();
         }
         
-        save();
+        //save();
     }
     
     public String getWord(){
@@ -146,6 +151,8 @@ public class Word {
         
         Xml wordXML = new Xml(fileInput, "word");
         
+        type = Integer.parseInt(wordXML.child("type").content());
+        
         int wb = wordXML.child("before").integer("totalBefore");
         int wa = wordXML.child("after").integer("totalAfter");
         
@@ -162,7 +169,11 @@ public class Word {
         }
     }
     
-    public Word commonWordBefore(){
+    /**
+     * Returns the most common word that happens before this word.
+     * @return 
+     */
+    public Word maxWordBefore(){
         int max = Collections.max(timesBefore);
         int i = timesBefore.indexOf(max);
         String s = wordsBefore.get(i);
@@ -170,7 +181,11 @@ public class Word {
         return w;
     }
     
-    public Word commonWordAfter(){
+    /**
+     * Returns the most common word that happens after this word.
+     * @return 
+     */
+    public Word maxWordAfter(){
         int max = Collections.max(timesAfter);
         int i = timesAfter.indexOf(max);
         String s = wordsAfter.get(i);
@@ -179,11 +194,47 @@ public class Word {
     }
     
     public Word commonBefore(Word w){
-        return this; //temp
+        Word x = null;
+        boolean match = false;
+        int i = 0;
+        
+        while(!match){
+            if(w.maxAfterWordAfter(i).equals(maxBeforeWordAfter(i))){
+                match = true;
+                x = w.maxAfterWordAfter(i);
+            } else {
+                i++;
+            }
+        }
+        return x;
     }
     
     public Word commonAfter(Word w){
         return this; //temp
+    }
+    
+    public Word maxAfterWordAfter(int a){
+        ArrayList<Integer> tAfter = timesAfter;
+        Collections.sort(tAfter);
+        Collections.reverse(tAfter);
+        
+        int i = tAfter.get(a);
+        i = timesAfter.indexOf(i);
+        
+        Word w = new Word(wordsAfter.get(i));
+        return w;
+    }
+    
+    public Word maxBeforeWordAfter(int a){
+        ArrayList<Integer> tBefore = timesBefore;
+        Collections.sort(tBefore);
+        Collections.reverse(tBefore);
+        
+        int i = tBefore.get(a);
+        i = timesBefore.indexOf(i);
+        
+        Word w = new Word(wordsAfter.get(i));
+        return w;
     }
     
     public void addWordBefore(Word w){
@@ -222,7 +273,34 @@ public class Word {
         save();
     }
     
-    public void setType(int t){
-        type = t;
+    /**
+     * This sets the word type.
+     * 1 - Thing
+     * 2 - Place
+     * 3 - Idea
+     * 4 - Verb
+     * 5 - Adjective
+     * 6 - Adverb - Description for verbs
+     * 7 - Pronoun
+     * @param type 
+     */
+    public void setType(int type){
+        this.type = type;
+    }
+    
+    public ArrayList<String> getWordsBefore(){
+        return wordsBefore;
+    }
+    
+    public ArrayList<String> getWordsAfter(){
+        return wordsAfter;
+    }
+    
+    public ArrayList<Integer> getTimesBefore(){
+        return timesBefore;
+    }
+    
+    public ArrayList<Integer> getTimesAfter(){
+        return timesAfter;
     }
 }
