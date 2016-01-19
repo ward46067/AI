@@ -18,6 +18,7 @@ public class Word {
     private Letter[] letters;
     private int type;
     private File file;
+    private int uses = 0;
     
     private ArrayList<String> wordsBefore = new ArrayList();
     private ArrayList<String> wordsAfter = new ArrayList();
@@ -43,11 +44,10 @@ public class Word {
         //check if the file exsists
         if(file.exists()){
             load();
-        }else{
-            save();
         }
         
-        //save();
+        uses++;
+        save();
     }
     
     public String getWord(){
@@ -83,6 +83,11 @@ public class Word {
         Element elmType = new Element("type");
         elmType.appendChild(Integer.toString(type));
         elmWord.appendChild(elmType);
+        
+        //uses
+        Element elmUses = new Element("uses");
+        elmUses.appendChild(Integer.toString(uses));
+        elmWord.appendChild(elmUses);
         
         //words before
         Element elmBefore = new Element("before");
@@ -152,6 +157,7 @@ public class Word {
         Xml wordXML = new Xml(fileInput, "word");
         
         type = Integer.parseInt(wordXML.child("type").content());
+        uses = Integer.parseInt(wordXML.child("uses").content());
         
         int wb = wordXML.child("before").integer("totalBefore");
         int wa = wordXML.child("after").integer("totalAfter");
